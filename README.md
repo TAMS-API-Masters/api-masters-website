@@ -3,9 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project consists of three main branches:
 
-- Master: Code ready to be pushed to prod but held in quarantine
-- Sridhar: Changes made by Sridhar
-- Prod: Code pushed to Netlify and thus deployed on the actual website.
+- **Master:** Code ready to be pushed to prod but held in quarantine
+- **Sridhar:** Changes made by Sridhar
+- **Prod:** Code pushed to Netlify and thus deployed on the actual website.
 
 ## Available Scripts
 
