@@ -33,7 +33,7 @@ export default function Home(props) {
         title="video"
         style={{marginTop: "70px"}}
       /> */}
-      <object 
+      {/*<object 
         data='https://www.youtube.com/embed/t8Oe8Bej7ck' 
         width='560px' 
         height='315px' 
@@ -42,7 +42,16 @@ export default function Home(props) {
         allowfullscreen
         style={{marginTop: "70px"}}
   
-        />
+        />*/}
+			<VideoLink
+			data='https://www.youtube.com/embed/t8Oe8Bej7ck' 
+			width='560px' 
+			height='315px' 
+			frameborder="0"
+			title="video"
+			allowfullscreen
+			style={{marginTop: "70px"}}
+			/>
       <Message>
         * <strong>Note:</strong> We will not and cannot be held responsible for
         the effects of joining these groups, including but not limited to a
@@ -83,4 +92,13 @@ const HomeDiv = styled.div`
   align-items: center;
 
   margin-top: 100px;
+`;
+
+//Added media query using styled components
+const VideoLink = styled.object`
+@media screen and (max-width: 767px) {
+	width: 420px;
+	height: 237px;
+}
+	
 `;
