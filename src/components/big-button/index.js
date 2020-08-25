@@ -34,7 +34,7 @@ const BigButtonLink = styled.a`
     position: relative;
 
     //Media query to adjust size of Discord and Facebook links
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: ${constants.MOBILE_BREAKPOINT}) {
         width: 300px;
     }
 
