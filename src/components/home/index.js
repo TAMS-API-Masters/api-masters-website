@@ -14,7 +14,9 @@ export default function Home(props) {
         image={discord}
         link={"http://www.discord.com"}
       >
-         {/* <Asterisk href={""}>*</Asterisk> */}
+				 {/* Add to media query later
+				 <Asterisk href={""}>*</Asterisk> 
+				 */}
       </BigButton>
       <BigButton
         text={"Join our Facebook"}
