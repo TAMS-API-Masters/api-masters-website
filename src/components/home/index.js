@@ -23,7 +23,7 @@ export default function Home(props) {
         link={"http://www.facebook.com"}
         style={{ marginTop: "40px" }}
       />
-      <iframe
+      {/* <iframe
         src={`https://www.youtube.com/embed/t8Oe8Bej7ck`}
         width="560" 
         height="315" 
@@ -32,7 +32,17 @@ export default function Home(props) {
         allowfullscreen
         title="video"
         style={{marginTop: "70px"}}
-      />
+      /> */}
+      <object 
+        data='https://www.youtube.com/embed/t8Oe8Bej7ck' 
+        width='560px' 
+        height='315px' 
+        frameborder="0"
+        title="video"
+        allowfullscreen
+        style={{marginTop: "70px"}}
+  
+        />
       <Message>
         * <strong>Note:</strong> We will not and cannot be held responsible for
         the effects of joining these groups, including but not limited to a

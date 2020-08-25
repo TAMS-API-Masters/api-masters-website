@@ -35,7 +35,8 @@ const BigButtonLink = styled.a`
 
     //Media query to adjust size of Discord and Facebook links
     @media screen and (max-width: 767px) {
-        width: 300px
+        background-color: #90EE90;
+        width: 300px;
     }
 
     img {
