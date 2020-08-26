@@ -14,7 +14,9 @@ export default function Home(props) {
         image={discord}
         link={"http://www.discord.com"}
       >
-        <Asterisk href={""}>*</Asterisk>
+				 {/* Add to media query later
+				 <Asterisk href={""}>*</Asterisk> 
+				 */}
       </BigButton>
       <BigButton
         text={"Join our Facebook"}
@@ -23,16 +25,16 @@ export default function Home(props) {
         link={"http://www.facebook.com"}
         style={{ marginTop: "40px" }}
       />
-      <iframe
-        src={`https://www.youtube.com/embed/t8Oe8Bej7ck`}
-        width="560" 
-        height="315" 
-        frameborder="0"
-        allow="autoplay; encrypted-media"
-        allowfullscreen
-        title="video"
-        style={{marginTop: "70px"}}
-      />
+      
+			<VideoLink
+			data='https://www.youtube.com/embed/t8Oe8Bej7ck' 
+			width='560px' 
+			height='315px' 
+			frameborder="0"
+			title="video"
+			allowfullscreen
+			style={{marginTop: "70px"}}
+			/>
       <Message>
         * <strong>Note:</strong> We will not and cannot be held responsible for
         the effects of joining these groups, including but not limited to a
@@ -73,4 +75,13 @@ const HomeDiv = styled.div`
   align-items: center;
 
   margin-top: 100px;
+`;
+
+//Added media query using styled components
+const VideoLink = styled.object`
+@media screen and (max-width: 767px) {
+	width: 373px;
+	height: 210px;
+}
+	
 `;
