@@ -8,5 +8,6 @@ export default {
     DISCORD_BLUE: "#5F73C2",
     FACEBOOK_BLUE: "#0075FB",
     THEME_GRAY: "#C4C4C4",
-    SUBTITLE_COLOR: "#373737"
+    SUBTITLE_COLOR: "#373737",
+    MAROON: "#8D1C24"
 }
