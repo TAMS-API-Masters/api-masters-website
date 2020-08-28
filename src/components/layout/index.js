@@ -40,13 +40,12 @@ const Footer = styled.footer`
   margin-top: auto;
   box-sizing: border-box;
   position: relative;
+  justify-content: space-between;
 `
 
 const StampImg = styled.img`
   transform: rotate(15deg);
   width: 150px;
-  position: absolute;
-  right: 20px;
 `
 
 const BackgroundDiv = styled.div`
