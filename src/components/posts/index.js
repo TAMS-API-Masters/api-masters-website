@@ -98,7 +98,7 @@ function PostPreview(props) {
 function FeaturedBadge() {
   return (
     <BadgeDiv>
-      Featured!
+      Featured! 🌟
     </BadgeDiv>
   )
 }
@@ -113,8 +113,9 @@ const BadgeDiv = styled.div`
   background-color: ${constants.BEIGE}80;
   transform: rotate(12deg);
   font-weight: 500;
-  box-shadow: 6px 10px 19px -9px rgba(0,0,0,0.29);
+  box-shadow: 6px 10px 19px -9px rgba(0,0,0,0.5);
   font-size: 20px;
+  color: ${constants.MAROON};
 `
 
 const RightChevron = styled(FaChevronRight)`
