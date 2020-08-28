@@ -12,7 +12,7 @@ export default function Home(props) {
         text={"Join our Discord"}
         color={constants.DISCORD_BLUE}
         image={discord}
-        link={"http://www.discord.com"}
+        link={"https://discord.gg/Zd2QeaR"}
       >
 			<Asterisk href={""}>*</Asterisk> 
       </BigButton>
@@ -20,7 +20,7 @@ export default function Home(props) {
         text={"Join our Facebook"}
         color={constants.FACEBOOK_BLUE}
         image={facebook}
-        link={"http://www.facebook.com"}
+        link={"https://www.facebook.com/groups/267939461256242/"}
         style={{ marginTop: "40px" }}
       />
       
