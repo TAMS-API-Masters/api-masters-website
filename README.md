@@ -7,6 +7,15 @@ This project consists of three main branches:
 - **Sridhar:** Changes made by Sridhar
 - **Prod:** Code pushed to Netlify and thus deployed on the actual website.
 
+## Writing a Blog
+
+Follow these steps if you want to contribute a blog post:
+
+1. In `component/posts/posts`, write your blog content in MarkDown. Title the file `NUM.md`, where `NUM` is the number of the blog post (starting from 1).
+2. In the same directory, make a file called `NUM.js` that contains metadata for the blog post (includes title, date; see past files for format).
+
+Following these steps should allow you to contribute a blog post. If you want to reference an image, make sure you put it in the `public/images` directory and reference it that way.
+
 ## Available Scripts
 
 In the project directory, you can run:
