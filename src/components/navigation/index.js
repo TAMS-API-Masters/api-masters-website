@@ -32,7 +32,7 @@ export default function Navigation(props) {
         <NameImg
           src={name}
           alt={"API Masters"}
-          style={isSmall ? { margin: "0", marginLeft: "15px" } : {}}
+          style={isSmall ? { margin: "0", marginLeft: "15px", marginTop: "8px" } : {}}
         />
         </Link>
         {isSmall && <MenuButton onClick={toggleDropdown} />}
@@ -48,8 +48,8 @@ const MenuButton = styled(HiMenu)`
   height: 80px;
   width: 80px;
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 0;
+  top: 0;
 
   &:hover {
     cursor: pointer;
@@ -215,6 +215,7 @@ const LinkElement = styled(Link)`
 const DropdownDiv = styled.div`
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 
   background-color: ${constants.BEIGE};
 `;
