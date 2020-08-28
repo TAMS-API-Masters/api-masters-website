@@ -14,9 +14,7 @@ export default function Home(props) {
         image={discord}
         link={"http://www.discord.com"}
       >
-				 {/* Add to media query later
-				 <Asterisk href={""}>*</Asterisk> 
-				 */}
+			<Asterisk href={""}>*</Asterisk> 
       </BigButton>
       <BigButton
         text={"Join our Facebook"}
@@ -56,6 +54,10 @@ const Asterisk = styled.a`
   transform: rotate(20deg);
   transition: transform 2s ease-in-out;
   text-decoration: none;
+
+  @media screen and (max-width: ${constants.MOBILE_BREAKPOINT}) {
+    display: none;
+  }
 `;
 
 const Message = styled.div`
