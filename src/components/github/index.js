@@ -11,7 +11,7 @@ export default function GitHub(props) {
                 text={"Visit our GitHub"}
                 color={constants.DISCORD_BLUE}
                 image={github}
-                link={"http://www.github.com"}
+                link={"https://github.com/TAMS-API-Masters"}
                 style={{marginTop: "60px"}}
             />
             <Message>

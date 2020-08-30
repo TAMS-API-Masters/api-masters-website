@@ -41,6 +41,7 @@ const BigButtonLink = styled.a`
     img {
         width: 105px;
         height: 105px;
+        flex-shrink: 0;
     }
 
     div {

@@ -12,17 +12,15 @@ export default function Home(props) {
         text={"Join our Discord"}
         color={constants.DISCORD_BLUE}
         image={discord}
-        link={"http://www.discord.com"}
+        link={"https://discord.gg/Zd2QeaR"}
       >
-				 {/* Add to media query later
-				 <Asterisk href={""}>*</Asterisk> 
-				 */}
+			<Asterisk href={""}>*</Asterisk> 
       </BigButton>
       <BigButton
         text={"Join our Facebook"}
         color={constants.FACEBOOK_BLUE}
         image={facebook}
-        link={"http://www.facebook.com"}
+        link={"https://www.facebook.com/groups/267939461256242/"}
         style={{ marginTop: "40px" }}
       />
       
@@ -56,6 +54,10 @@ const Asterisk = styled.a`
   transform: rotate(20deg);
   transition: transform 2s ease-in-out;
   text-decoration: none;
+
+  @media screen and (max-width: ${constants.MOBILE_BREAKPOINT}) {
+    display: none;
+  }
 `;
 
 const Message = styled.div`

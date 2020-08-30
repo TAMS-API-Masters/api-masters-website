@@ -7,7 +7,7 @@ export default function ContentBox(props) {
 }
 
 const Box = styled.main`
-  background-color: ${constants.BEIGE}70;
+  background-color: ${constants.BEIGE}95;
     margin: ${constants.STANDARD_LR_MARGIN};
     border-radius: 40px;
     padding: 30px;

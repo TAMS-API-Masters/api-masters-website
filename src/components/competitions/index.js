@@ -8,6 +8,9 @@ import DividingLine from "../dividing-line";
 export default function Competitions(props) {
   return (
     <ContentBox>
+      {competitions.length == 0 && 
+        <h1>Competition information is coming soon!  👀</h1>
+      }
       {competitions.map((competition, index) => {
         const { title, subtitle, description, image, api_name } = competition;
         return (

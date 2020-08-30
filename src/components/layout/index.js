@@ -40,6 +40,7 @@ const Footer = styled.footer`
   margin-top: auto;
   box-sizing: border-box;
   position: relative;
+  justify-content: space-between;
 `
 
 const StampImg = styled.img`
@@ -52,6 +53,7 @@ const StampImg = styled.img`
     right: 0px;
     position: relative;
 }
+
 `
 
 const BackgroundDiv = styled.div`
