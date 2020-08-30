@@ -46,6 +46,14 @@ const Footer = styled.footer`
 const StampImg = styled.img`
   transform: rotate(15deg);
   width: 150px;
+  position: absolute;
+  right: 20px;
+  @media screen and (max-width: ${constants.MOBILE_BREAKPOINT}) {
+    width: 100px;
+    right: 0px;
+    position: relative;
+}
+
 `
 
 const BackgroundDiv = styled.div`
