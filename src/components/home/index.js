@@ -40,6 +40,9 @@ export default function Home(props) {
         joy and satisfaction after seeing the effects of your hard work, and/or
         the receival of a limited-edition ninja duck as a competition prize.
       </Message>
+      <div style={{display: "none"}}>
+        <a href="/posts" />
+      </div>
     </HomeDiv>
   );
 }
