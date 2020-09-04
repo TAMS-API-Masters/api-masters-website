@@ -8,6 +8,7 @@ import ReactMarkdown from "react-markdown";
 import previewPost from "./posts/1";
 import { FaChevronRight } from "react-icons/fa";
 import DividingLine from "../dividing-line";
+import { Helmet } from 'react-helmet';
 
 function numbersUntil(num) {
   let arr = []
@@ -73,6 +74,10 @@ function PostPreview(props) {
 
   return (
     <PreviewDiv>
+      <Helmet>
+        <title>TAMS API Masters | Posts </title>
+        <meta name="description" content="View all blog posts for API Masters" />
+      </Helmet>
       <PreviewTitle
         to={`posts/${postNum}`}
         onMouseEnter={() => setHovered(true)}
