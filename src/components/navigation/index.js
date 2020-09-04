@@ -73,7 +73,7 @@ const NameImg = styled.img`
   display: block;
   width: 50%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto !important;
 `;
 
 const NavNav = styled.nav`
